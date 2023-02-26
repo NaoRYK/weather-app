@@ -110,11 +110,11 @@ const searchCity = async event =>{
 const hideWaitMsg = city =>{
     if(city.length !== 0){
        waitMsg.classList.add("hidden");
-       console.log(">:C")
+       
         return;
     }
     else{
-        console.log("hi")
+        
         waitMsg.classList.remove("hidden");
         //waitMsgContainer.createElement('<p id="cityContainer">Ingrese una ciudad</p>')
     }
@@ -141,9 +141,9 @@ const removeCity = event =>{
 const init = ()=>{
 
     renderCitiesList(cities);
-    console.log("l1",cities.length)
+    
     hideWaitMsg(cities)
-    console.log("l2",cities.length)
+    
     form.addEventListener('submit',searchCity)
     cardContainer.addEventListener('click', removeCity);
 };
