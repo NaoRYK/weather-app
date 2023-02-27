@@ -49,7 +49,7 @@ const renderCity =city =>{
               </div>
             </div>
             <div class="weather-img-container">
-            <img src="http://openweathermap.org/img/wn/${city.weather[0].icon}@2x.png" alt="weather image">
+            <img src="./assets/img/${city.weather[0].icon}.png" alt="weather image">
             </div>
             <div class="weather-extra-container">
               <div class="weather-minmax-container">

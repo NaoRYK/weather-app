@@ -180,7 +180,7 @@ input::placeholder{
   }
 }
 .weather-img-container img{
-  height:12rem
+  height:8rem
 }
 .hidden{
   display: none;
